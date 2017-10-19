@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Function Exercises</title>
+</head>
+  <body>
+    <h1>JS Functions - see console for output</h1>
+    <script>
+
+    const get_square = (a) => {
+        return a * a;
+
+    }
+
+    console.log(get_square(9));
+
+    const get_letter_grade = (grade) => {
+    let letter_grade;
+
+
+      if (grade >=90) {
+        letter_grade= "A";
+        }
+      if (grade >=80) {
+          letter_grade= "B";
+        }
+      if (grade >=70) {
+          letter_grade= "C";
+          }
+    
+          return letter_grade;
+    }
+  console.log (get_letter_grade(98));
+
+</script>
+</body>
+</html>
